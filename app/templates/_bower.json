@@ -1,0 +1,10 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "<%= projectVersion %>",
+  "dependencies": {},
+  "devDependencies": {<% if( cssFramework == 'foundation'){ %>
+  	"foundation": "~5.5.2",<% } %><% if( cssFramework == 'bootstrap'){%>
+  	"bootstrap": "~3.3.4",<% } %>
+  	"font-awesome": "~4.3.0"
+  }
+}

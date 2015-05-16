@@ -1,0 +1,27 @@
+# A .gitignore file specifies intentionally untracked files that Git should ignore.
+
+
+
+# Ignore specific files
+.sass-cache
+npm-debug.log
+
+
+# Ignore all files ending with this file extension
+
+*.zip
+*.psd
+
+
+# Ignore directories
+
+
+.sass-cache/*
+
+bower_components/
+
+node_modules/
+
+dist/
+
+production/
