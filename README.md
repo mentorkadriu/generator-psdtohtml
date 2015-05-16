@@ -32,7 +32,7 @@ $ yo psdtohtml
 ### Requirements
 
 Make sure you have installed : 
-1. [Nodejs](http://nodejs.com)
-2. [Bower](http://bower.io) or install `npm install bower -g`
-2. [Yeoman](http://yeomain.io) or install `npm install yo -g`
-3. [Gulp](http://gulpjs.com) or install globally `npm install gulp -g`
+* [Nodejs](http://nodejs.com)
+* [Bower](http://bower.io) or install `npm install bower -g`
+* [Yeoman](http://yeomain.io) or install `npm install yo -g`
+* [Gulp](http://gulpjs.com) or install globally `npm install gulp -g`
