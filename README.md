@@ -22,16 +22,14 @@ Initiate the generator:
 $ yo psdtohtml
 ```
 
-Options meaning: 
-1. What's project name? - Default value is folder name. Tell your project name.
-2. What\'s project version? - Default value is 0.0.1. Insert your project value
-
 
 ### Commands
 
+```
+ gulp
+```
 
-
-### Requirments
+### Requirements
 
 Make sure you have installed : 
 1. [Nodejs](http://nodejs.com)
