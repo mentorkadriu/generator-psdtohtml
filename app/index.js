@@ -42,6 +42,14 @@ var psdTohtml = yeoman.generators.Base.extend({
         }
       }
     }, {
+      type: 'input',
+      name: 'projectAuthor',
+      message: 'What\'s author name ?'
+    }, {
+      type: 'input',
+      name: 'projectDescription',
+      message: 'Describe your project.'
+    }, {
       type: 'list',
       name: 'cssFramework',
       message: 'Choose your prefered css Framework',
@@ -84,6 +92,8 @@ var psdTohtml = yeoman.generators.Base.extend({
     this.prompt(prompts, function (props) {
       this.projectName = this._.str.camelize(props.projectName, true);
       this.projectVersion = props.projectVersion;
+      this.projectAuthor = props.projectAuthor;
+      this.projectDescription = props.projectDescription;
       this.bowerOption = props.bowerOption;
       this.templateOption = props.templateOption;
       this.styleOption = props.styleOption;
